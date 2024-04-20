@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.activity_listarresumen">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listado de Resumen"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#1976D2"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+
+            <ListView
+                android:id="@+id/ListResumen"
+                android:layout_width="match_parent"
+                android:layout_height="686dp" >
+
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
